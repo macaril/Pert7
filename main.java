@@ -1,5 +1,11 @@
 public class main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
+
+    String[] books = {"Java Programming", "Database Design", "Web Development"};
+        System.out.println("Available books:"); {
+        for (String book : books) {
+            System.out.println("- " + book);    
+        }
     }
 }
